@@ -47,11 +47,23 @@ nav li{
     font-size: 36px;
 }
 
+nav li:hover {
+    /* background-color: rgb(180, 180, 180);
+    color: white; */
+    background-color: rgb(200, 200, 200);
+    color: black;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
 .title-name {
     color: white;
     font-size: 48px;
     /* border: 2px black solid; */
     position: relative;
+    padding: 50px;
+    margin: 0;
+    letter-spacing: 6px;
 }
 
 .title-hello {
@@ -61,6 +73,7 @@ nav li{
     opacity: 0.8;
     text-align: center;
     /* border: 2px black solid; */
+    padding: 20px;
 }
 
 .title-hello h2 {
@@ -83,7 +96,7 @@ nav li{
 
 .actions-container {
     position: relative;
-    border: 2px black solid;
+    /* border: 2px black solid; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -95,7 +108,12 @@ nav li{
     margin: 20px;
     text-align: center;
     padding: 10px;
-    margin: 100px;
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.action-cards:hover {
+    background-color: rgb(230, 230, 230);
 }
 
 .action-circle {
