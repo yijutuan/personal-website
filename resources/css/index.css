@@ -6,7 +6,7 @@ body {
 }
 
 .title-splash {
-    border: 2px black solid;
+    /* border: 2px black solid; */
     background-image: url("../images/LA_mtns.JPG");
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,16 +21,22 @@ body {
 /* Navigation Bar */ 
 
 nav {
-    float: right;
-    /* border: 2px black solid; */
-    padding: 0;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    /* background-color: white; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
 }
 
 nav li {
-    float: left;
     list-style-type: none;
     padding: 0 20px;
-    width: 100px;
+    /* width: 100px; */
     text-align: center;
     /* border: 2px black solid; */
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -93,28 +99,6 @@ nav li {
     width: 200px;
     height: 200px;
     border-radius: 100%;
-}
-
-#pic-coding {
-    background-image: url("https://www.burning-glass.com/wp-content/uploads/coding_screen_400x300-e1535048737568.jpg");
-}
-
-#pic-teaching {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlZWYAXKlsWY2BrgrTaJS43pqadtvdjevznSzfUjalLrRuIWVx");
-    background-size: cover;
-    background-position: center;
-}
-
-#pic-traveling {
-    background-image: url("https://www.incimages.com/uploaded_files/image/970x450/getty_583734066_335273.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-#pic-sipping {
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG");
-    background-size: cover;
-    background-position: center;
 }
 
 /* Footer */
