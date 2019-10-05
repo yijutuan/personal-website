@@ -10,19 +10,6 @@ a {
     color: inherit;
 }
 
-.title-splash {
-    /* border: 2px black solid; */
-    background-image: url("../images/LA_mtns.JPG");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 /* Navigation Bar */ 
 
 nav {
@@ -56,40 +43,69 @@ nav li:hover {
     opacity: 0.7;
 }
 
-.title-name {
-    color: white;
-    font-size: 48px;
-    /* border: 2px black solid; */
-    position: relative;
-    padding: 50px;
-    margin: 0;
-    letter-spacing: 6px;
-}
+/* Text overlay on picture */
 
-.title-hello {
+.title-overlay {
     background-color: white;
     position: relative;
     width: 100%;
     opacity: 0.8;
     text-align: center;
-    /* border: 2px black solid; */
     padding: 20px;
 }
 
-.title-hello h2 {
+.title-overlay h2 {
     font-size: 40px;
     margin: 0;
 }
 
-.title-hello p {
+.title-overlay p {
     font-size: 18px;
     font-family: 'Open Sans';
     margin: 0;
 }
 
-.title-hello h6 {
+.title-overlay h6 {
     font-family: 'Open Sans';
     margin: 0;
+}
+
+/* Footer */
+
+footer {
+    background-color: #0B1C3E;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    /* border: 3px black solid; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+/* Homepage index.html ONLY */
+
+.title-splash {
+    /* border: 2px black solid; */
+    background-image: url("../images/LA_mtns.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.title-name {
+    color: white;
+    font-size: 48px;
+    position: relative;
+    padding: 50px;
+    margin: 0;
+    letter-spacing: 6px;
 }
 
 /* Actions Section */
@@ -123,16 +139,15 @@ nav li:hover {
     border-radius: 100%;
 }
 
-/* Footer */
+/* Cafe Page ONLY */
+.background-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
-footer {
-    background-color: #0B1C3E;
-    text-align: center;
-    color: white;
-    font-size: 18px;
-    font-family: 'Open Sans';
-    /* border: 3px black solid; */
-    padding-top: 20px;
-    padding-bottom: 20px;
-    
+#cafe-background {
+    height: 700px;
+    background-image: url("../images/aroma-beverage-brown-347144.jpg");
+    padding-top: 100px;
 }
