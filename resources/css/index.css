@@ -126,9 +126,6 @@ footer {
     font-size: 36px;
 }
 
-
-
-
 .action-cards {
     /* border: 2px black solid; */
     margin: 20px;
@@ -149,9 +146,28 @@ footer {
     border-radius: 100%;
 }
 
+/* Bio Page ONLY */
+#bio-portrait {
+    width: 250px;
+    height: auto;
+    float: left;
+    margin: 30px;
+}
+
+.bio-container {
+    background-color: #E4EDFF;
+    padding-top: 70px;
+}
+
+.bio-info-container {
+    padding: 20px;
+}
+
+#verse {
+    margin-top: 100px;
+}
+
 /* Cafe Page ONLY */
-
-
 
 #cafe-background {
     height: 700px;
