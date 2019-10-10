@@ -160,6 +160,7 @@ footer {
 .cafe-cards-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .cafe-card {
