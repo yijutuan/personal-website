@@ -10,6 +10,10 @@ a {
     color: inherit;
 }
 
+p {
+    font-family: 'Open Sans';
+}
+
 /* Navigation Bar */ 
 
 nav {
@@ -24,6 +28,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
+    padding-right: 10px;
 }
 
 nav li{
@@ -164,7 +169,51 @@ footer {
 }
 
 #verse {
-    margin-top: 100px;
+    margin-top: 70px;
+}
+
+/* Travel page ONLY */
+.travel-title-container {
+    padding-top: 70px;
+    background-color: #0B1C3E;
+}
+
+.travel-title-cards {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+}
+
+.travel-title-cards:hover {
+    opacity: 1;
+}
+
+.travel-title-cards h1 {
+    padding-top: 25%;
+}
+
+.location-container {
+    background-color: #E4EDFF;
+    padding-bottom: 30px;
+}
+
+.travel-pictures-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.picture-container img {
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picture-caption {
+    font-family: 'Open Sans';
+    margin: 10px;
 }
 
 /* Cafe Page ONLY */
@@ -200,3 +249,5 @@ footer {
     color: white;
     font-family: 'Opens Sans';
 }
+
+
