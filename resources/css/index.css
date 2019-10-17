@@ -21,7 +21,7 @@ nav {
     z-index: 1;
     position: fixed;
     background-color: white;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 nav ul {
@@ -60,13 +60,14 @@ nav li:hover {
 
 .title-overlay h2 {
     font-size: 40px;
-    margin: 0;
+    margin: 10px;
 }
 
 .title-overlay p {
     font-size: 18px;
     font-family: 'Open Sans';
     margin: 0;
+    padding: 10px;
 }
 
 .title-overlay h6 {
@@ -128,27 +129,28 @@ footer {
 
 .actions-container {
     position: relative;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .action-cards {
-    /* border: 2px black solid; */
     margin: 20px;
     text-align: center;
-    padding: 10px;
-    margin: 50px;
-    border-radius: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.action-cards i {
+    margin-top: 55px;
 }
 
 .action-cards:hover {
     background-color: rgb(230, 230, 230);
 }
 
-.action-circle {
-    border: 2px #C4C4C4 solid;
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
+.action-word {
+    margin: 0;
 }
 
 /* Bio Page ONLY */
