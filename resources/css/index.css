@@ -187,6 +187,7 @@ footer {
 
 .work-nav {
     padding-left: 10 px;
+    cursor: pointer;
 }
 
 .work-nav-item {
@@ -195,10 +196,6 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
     width: 200px;
-}
-
-#nav-teaching {
-    background-color: #c4c4c4;
 }
 
 .work-page {
@@ -212,9 +209,6 @@ footer {
     font-size: 24px;
 }
 
-#coding-page {
-    display: none;
-}
 
 /* Travel page ONLY */
 .travel-title-container {
